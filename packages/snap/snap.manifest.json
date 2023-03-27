@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "description": "Transaction Insight Snap",
+  "proposedName": "Last Defence",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "rHFmonbNY1TS6hStFauFAnIYGlWNtHLWuYikiOaudo4=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "last-defense",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": true
+    },
+    "endowment:ethereum-provider": {}
+  },
+  "manifestVersion": "0.1"
+}
